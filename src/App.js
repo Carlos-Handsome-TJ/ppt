@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import ExampleComponent from './whyUseHooks/showDiff/classComponent'
+import HooksComponent from './whyUseHooks/showDiff/hooksComponent'
+import Reuse from './whyUseHooks/stateResuse/reuse'
+import ShowUseState from './commonHooks/useState'
+import ShowUseEffect from './commonHooks/useEffect'
+import ShowUseMemo from './commonHooks/useMemo'
+import ShowUseRef from './commonHooks/ref'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<ExampleComponent/>*/}
+      {/*<HooksComponent/>*/}
+      {/*<Reuse/>*/}
+      {/*<ShowUseState/>*/}
+      {/*<ShowUseEffect/>*/}
+      {/*<ShowUseMemo/>*/}
+      <ShowUseRef/>
     </div>
   );
 }
